@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ViewPager</string>
+    <string name="left_item">我是侧边栏</string>
+    <string name="homepage">首页</string>
+    <string name="NewsCenter">新闻中心</string>
+    <string name="SmartService">智能服务</string>
+    <string name="Setting">设置</string>
+    <string name="Government">时政</string>
+    <string name="home">欢迎来到大视野</string>
+    <string name="vision">大视野</string>
+    <string name="gxService">个性化服务</string>
+    <string name="CheckIntnet">请检查您的网络链接是否正常</string>
+</resources>

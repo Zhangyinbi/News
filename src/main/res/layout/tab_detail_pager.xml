@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ProgressBar
+        android:indeterminateDrawable="@drawable/custom"
+
+        android:id="@+id/pb_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+    <com.example.viewpager.view.RefreshListView
+        android:id="@+id/lv_list"
+        android:scrollbars="none"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#28d4b9b9"
+        android:dividerHeight="1dp"
+        android:overScrollMode="never"
+        ></com.example.viewpager.view.RefreshListView>
+</FrameLayout>
